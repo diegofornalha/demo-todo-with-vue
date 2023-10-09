@@ -3,9 +3,9 @@
     <div class="flex-grow flex flex-col max-w-xl justify-center p-6">
       <h1 class="text-6xl font-bold">Login</h1>
       <p class="mt-6">
-        Don't have an account ?
+        Não tem uma conta?
         <span class="cursor-pointer underline">
-          <router-link to="/signup"> Sign Up </router-link>
+          <router-link to="/signup"> Cadastro </router-link>
         </span>
       </p>
       <form @submit="handleLogin">
@@ -15,7 +15,7 @@
           class="w-full p-4 placeholder-gray-400 text-gray-700 bg-white text-lg border-0 border-b-2 border-gray-400 focus:ring-0 focus:border-gray-900"
           type="text"
         />
-        <label class="block mt-6"> Password</label>
+        <label class="block mt-6"> Senha</label>
         <input
           v-model="password"
           class="w-full p-4 placeholder-gray-400 text-gray-700 bg-white text-lg border-0 border-b-2 border-gray-400 focus:ring-0 focus:border-gray-900"
