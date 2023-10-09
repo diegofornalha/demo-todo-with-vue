@@ -1,14 +1,16 @@
 <template>
   <alert v-if="getError['show']" :message="getError['message']" :color="getError['color']" />
   <router-view />
+  <BloctoConnect />
 </template>
 
 <script>
+import BloctoConnect from './components/BloctoConnect.vue';
 import { mapActions, mapGetters } from 'vuex'
 import Alert from './components/Alert.vue'
 
 export default {
-  components: { Alert },
+  components: { Alert, BloctoConnect }, // Adicionado BloctoConnect aqui
   name: "App",
   computed : mapGetters(['getAccount', 'getError']),
   watch: {
@@ -27,5 +29,4 @@ export default {
       this.fetchAccount()
   }
 }
-
 </script>
