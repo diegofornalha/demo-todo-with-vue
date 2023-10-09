@@ -1,9 +1,9 @@
 <template>
   <section class="container h-screen mx-auto flex">
     <div class="flex-grow flex flex-col max-w-xl justify-center p-6">
-      <h1 class="text-6xl font-bold">Sign Up</h1>
+      <h1 class="text-6xl font-bold">Cadastro</h1>
       <p class="mt-4">
-        Already have an account ?
+        Já tem uma conta?
         <span class="cursor-pointer underline">
           <router-link to="/login"> Login </router-link>
         </span>
@@ -35,7 +35,7 @@
             type="submit"
             class="mx-auto mt-4 py-4 px-16 font-semibold rounded-lg shadow-md bg-gray-900 text-white border hover:border-gray-900 hover:text-gray-900 hover:bg-white focus:outline-none disabled:opacity-50 disabled:cursor-not-allowed"
           >
-            Sign Up
+            Cadastro
           </button>
         </div>
       </form>
