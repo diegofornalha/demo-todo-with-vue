@@ -7,6 +7,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@blocto/sdk": "^0.7.0",
     "@tailwindcss/forms": "^0.3.2",
     "appwrite": "^10.1.0",
     "vue": "^3.0.5",
